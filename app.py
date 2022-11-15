@@ -141,7 +141,7 @@ def frontsmell():
 
 @app.route('/frontthinq')
 def frontthinq():      
-    return render_template('frontfl/thinq.html') # do something
+    return render_template('fl/thinq.html') # do something
    
 
 if __name__ == "__main__":
